@@ -17,7 +17,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -32,13 +32,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#bag">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1">Subscribe</a>
+                            <a class="nav-link" href="#subscribe" tabindex="-1">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -108,7 +108,7 @@
 
     <main class="container">
         <section class="overflow-hidden mt-5 text-white categories">
-            <div class="row gx-5">
+            <div class="row g-5">
                 <div class="col">
                     <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
                         <h1>Watch</h1>
@@ -130,7 +130,7 @@
             </div>
         </section>
 
-        <section class="mt-5">
+        <section id="shoes" class="mt-5">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -181,7 +181,7 @@
             </div>
         </section>
 
-        <section class="mt-5">
+        <section id="bag" class="mt-5">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -233,7 +233,7 @@
             </div>
         </section>
 
-        <section id="subscribe" class="container mt-5 d-flex justify-content-center align-items-center bg-sweet rounded">
+        <section id="subscribe" class="mt-5 d-flex justify-content-center align-items-center bg-sweet rounded">
             <div class="p-5">
                 <h3>LET'S STAY IN TOUCH</h3>
                 <h6>Get updates on sales, specials and more</h6>
